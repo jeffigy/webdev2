@@ -1,16 +1,26 @@
 {
-  "name": "npm",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@jeffigy/npm",
+  "version": "2.0.0",
   "main": "index.js",
   "dependencies": {
+    "@linclark/pkg": "^1.0.3",
     "how-to-npm": "^2.5.1"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js",
+    "start": "how-to-npm"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "jeffigy",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeffigy/webdev2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jeffigy/webdev2/issues"
+  },
+  "homepage": "https://github.com/jeffigy/webdev2#readme",
+  "description": "few words"
 }
